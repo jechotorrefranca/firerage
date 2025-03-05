@@ -64,7 +64,8 @@ const FileUploader = () => {
           bibleVerse,
           videoURL: downloadURL,
         });
-        setMessage(`Upload successful! Video URL: ${downloadURL}`);
+        setMessage(`Upload successful!`);
+        console.log(downloadURL);
         setProgress(0);
         setIsUploading(false);
         setBibleVerse("");
